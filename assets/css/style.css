@@ -1,3 +1,24 @@
+@media only screen and (max-width:648px) {
+    #logo, #navbar {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        max-height: 10%;
+    }
+
+    div {
+        padding-top: 20px;
+        max-width: 90%;
+    }
+
+    nav {
+        padding: 20px;
+    }
+
+    #navbar {
+        position: static;
+
+
 
 ul {
   list-style-type: none;
