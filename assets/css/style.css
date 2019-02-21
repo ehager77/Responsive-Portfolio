@@ -1,25 +1,3 @@
-@media only screen and (max-width:648px) {
-    #logo, #navbar {
-        width: 100%;
-        margin: 0px;
-        text-align: center;
-        max-height: 10%;
-    }
-
-    div {
-        padding-top: 20px;
-        max-width: 90%;
-    }
-
-    nav {
-        padding: 20px;
-    }
-
-    #navbar {
-        position: static;
-
-
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -58,7 +36,7 @@ li:first-child{
     background: #4aaaa5;
     height: 50px;
     color: white;
-    margin-left: 50px;
+    margin-left: 20px;
     text-align: center;
     padding-top: 24px;
     padding-left: 20px;
@@ -109,7 +87,7 @@ h1{
 
 .footer {
     border-top: 4px solid #4aaaa5;
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -162,3 +140,24 @@ button {
     text-align: center;
     padding: 5px 10px;
   }
+
+  @media only screen and (max-width:648px) {
+    #logo, #navbar {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        max-height: 10%;
+    }
+
+    div {
+        padding-top: 20px;
+        max-width: 90%;
+    }
+
+    nav {
+        padding: 20px;
+    }
+
+    #navbar {
+        position: static;
+    }
